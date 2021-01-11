@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hw-16-class-components/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/hw-16-class-components/static/js/main.814e3b7f.chunk.js",
+    "main.js.map": "/hw-16-class-components/static/js/main.814e3b7f.chunk.js.map",
+    "runtime-main.js": "/hw-16-class-components/static/js/runtime-main.f25001f4.js",
+    "runtime-main.js.map": "/hw-16-class-components/static/js/runtime-main.f25001f4.js.map",
+    "static/js/2.1c673d26.chunk.js": "/hw-16-class-components/static/js/2.1c673d26.chunk.js",
+    "static/js/2.1c673d26.chunk.js.map": "/hw-16-class-components/static/js/2.1c673d26.chunk.js.map",
+    "static/js/3.3b0da96e.chunk.js": "/hw-16-class-components/static/js/3.3b0da96e.chunk.js",
+    "static/js/3.3b0da96e.chunk.js.map": "/hw-16-class-components/static/js/3.3b0da96e.chunk.js.map",
+    "index.html": "/hw-16-class-components/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/hw-16-class-components/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.1c673d26.chunk.js.LICENSE.txt": "/hw-16-class-components/static/js/2.1c673d26.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hw-16-class-components/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f25001f4.js",
+    "static/js/2.1c673d26.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.814e3b7f.chunk.js"
+  ]
+}
