@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import Contracts from "./Contracts";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Cheking
+        <Contracts />
     </div>
   );
 }
