@@ -41,18 +41,18 @@ class Contracts extends Component {
                     phone: '+380956319521',
                     gender: 'male',
                 },
-            ]
+            ],
+        tempContacts: []
     }
 
     handleSearchChange = e => {
         this.setState({search: e.target.value});
-        let tempContacts = [];
-        tempContacts = this.state.contacts.filter(contact => contact.firstName.toLowerCase().indexOf(e.target.value) !== -1);
-        if (tempContacts.length !== 0) {
-            this.setState({contacts: tempContacts});
-        } else {
-            this.setState({contacts: this.state.contacts});
-        }
+        this.setState({tempContacts: this.state.contacts.filter(
+            contact =>
+                contact.firstName.toLowerCase().indexOf(e.target.value) !== -1 ||
+                contact.lastName.toLowerCase().indexOf(e.target.value) !== -1
+            )
+        });
     }
 
 
@@ -61,7 +61,9 @@ class Contracts extends Component {
             <div>
                 <input type="text" value={this.state.search} onChange={this.handleSearchChange}/>
                 <div className="contact-block">
-                    {this.state.contacts.map((contact, i) => <Contact contact={contact} key={i}/>)}
+                    {this.state.tempContacts.length === 0 && this.state.search === '' ?
+                        this.state.contacts.map((contact, i) => <Contact contact={contact} key={i}/>) :
+                        this.state.tempContacts.map((contact, i) => <Contact contact={contact} key={i}/>)}
                 </div>
             </div>
         )
